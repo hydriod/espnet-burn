@@ -1,0 +1,1951 @@
+       Fresh unicode-ident v1.0.24
+       Fresh windows-link v0.2.1
+       Fresh cfg_aliases v0.2.2
+       Fresh cfg-if v1.0.4
+       Fresh autocfg v1.5.1
+       Fresh equivalent v1.0.2
+       Fresh proc-macro2 v1.0.107
+       Fresh log v0.4.33
+       Fresh allocator-api2 v0.2.21
+       Fresh scopeguard v1.2.0
+       Fresh ident_case v1.0.1
+       Fresh quote v1.0.47
+       Fresh libm v0.2.16
+       Fresh lock_api v0.4.14
+       Fresh hashbrown v0.17.1
+       Fresh once_cell v1.21.4
+       Fresh rand_core v0.10.1
+       Fresh unicode-width v0.2.2
+       Fresh syn v2.0.119
+       Fresh syn v3.0.3
+       Fresh bitflags v2.13.1
+       Fresh unicode-segmentation v1.13.3
+       Fresh cpufeatures v0.3.0
+       Fresh windows-result v0.4.1
+       Fresh windows-strings v0.5.1
+       Fresh serde_derive v1.0.229
+       Fresh zerocopy-derive v0.8.56
+       Fresh bytemuck_derive v1.12.0
+       Fresh thiserror-impl v2.0.20
+       Fresh chacha20 v0.10.1
+       Fresh windows-interface v0.59.3
+       Fresh convert_case v0.10.0
+       Fresh windows-implement v0.60.2
+       Fresh unicode-xid v0.2.6
+       Fresh derive-new v0.7.0
+       Fresh parking v2.2.1
+       Fresh zerocopy v0.8.56
+       Fresh thiserror v2.0.20
+       Fresh derive_more-impl v2.1.1
+       Fresh windows-core v0.62.2
+       Fresh pin-project-lite v0.2.17
+       Fresh fnv v1.0.7
+       Fresh strsim v0.11.1
+       Fresh khronos_api v3.1.0
+       Fresh smallvec v1.15.2
+       Fresh darling_core v0.21.3
+       Fresh darling_core v0.23.0
+       Fresh aho-corasick v1.1.5
+       Fresh regex-syntax v0.8.11
+       Fresh version_check v0.9.5
+       Fresh xml-rs v0.8.29
+       Fresh parking_lot_core v0.9.12
+       Fresh gl_generator v0.14.0
+       Fresh darling_macro v0.23.0
+       Fresh regex-automata v0.4.18
+       Fresh darling_macro v0.21.3
+       Fresh zmij v1.0.23
+       Fresh getrandom v0.4.3
+       Fresh parking_lot v0.12.5
+       Fresh windows-threading v0.2.1
+       Fresh libloading v0.8.9
+       Fresh bit-vec v0.9.1
+       Fresh itoa v1.0.18
+       Fresh option-ext v0.2.0
+       Fresh futures-core v0.3.33
+       Fresh winnow v1.0.4
+       Fresh embassy-futures v0.1.2
+       Fresh web-time v1.1.0
+       Fresh windows-future v0.3.2
+       Fresh bit-set v0.9.1
+       Fresh portable-atomic v1.15.0
+       Fresh serde_json v1.0.151
+       Fresh toml_parser v1.1.3+spec-1.1.0
+       Fresh dirs-sys v0.5.0
+       Fresh darling v0.21.3
+       Fresh serde_core v1.0.229
+       Fresh darling v0.23.0
+       Fresh regex v1.13.1
+       Fresh windows-collections v0.3.2
+       Fresh windows-numerics v0.3.1
+       Fresh spirv v0.4.0+sdk-1.4.341.0
+       Fresh toml_datetime v1.1.1+spec-1.1.0
+       Fresh serde_spanned v1.1.1
+       Fresh rustc-hash v1.1.0
+       Fresh hexf-parse v0.2.1
+       Fresh fastrand v2.5.0
+       Fresh raw-window-handle v0.6.2
+       Fresh futures-io v0.3.33
+       Fresh foldhash v0.1.5
+       Fresh arrayvec v0.7.8
+       Fresh memchr v2.8.3
+       Fresh rustc-demangle v0.1.28
+       Fresh toml_writer v1.1.2+spec-1.1.0
+       Fresh windows v0.62.2
+       Fresh toml v1.1.4+spec-1.1.0
+       Fresh backtrace v0.3.76
+       Fresh hashbrown v0.15.5
+       Fresh nom v8.0.0
+       Fresh naga v29.0.4
+       Fresh futures-lite v2.6.1
+       Fresh wgpu-types v29.0.4
+       Fresh crossbeam-utils v0.8.22
+       Fresh serde v1.0.229
+       Fresh dirs v6.0.0
+       Fresh ahash v0.8.12
+       Fresh sanitize-filename v0.6.0
+       Fresh enumset_derive v0.15.0
+       Fresh ash v0.38.0+1.3.281
+       Fresh libc v0.2.189
+       Fresh num-traits v0.2.19
+       Fresh float8 v0.7.0
+       Fresh event-listener v5.4.2
+       Fresh gpu-descriptor-types v0.2.0
+       Fresh serde_bytes v0.11.19
+       Fresh float4 v0.2.0
+       Fresh oneshot v0.2.1
+       Fresh bytes v1.12.1
+       Fresh foldhash v0.2.0
+       Fresh presser v0.3.1
+       Fresh xxhash-rust v0.8.18
+       Fresh glutin_wgl_sys v0.6.1
+       Fresh event-listener-strategy v0.5.4
+       Fresh half v2.7.1
+       Fresh gpu-allocator v0.28.0
+       Fresh hashbrown v0.16.1
+       Fresh enumset v1.1.14
+       Fresh gpu-descriptor v0.3.2
+       Fresh khronos-egl v6.0.0
+       Fresh wgpu-naga-bridge v29.0.4
+       Fresh concurrent-queue v2.5.0
+       Fresh tynm v0.2.0
+       Fresh cubecl-macros-internal v0.10.0
+       Fresh derive_more v2.1.1
+       Fresh rand v0.10.2
+       Fresh bytemuck v1.25.2
+       Fresh variadics_please v1.1.0
+       Fresh ordered-float v5.3.0
+       Fresh spin v0.10.1
+       Fresh float-ord v0.3.2
+       Fresh renderdoc-sys v1.1.0
+       Fresh range-alloc v0.1.5
+       Fresh glow v0.17.0
+       Fresh profiling v1.0.18
+       Fresh cubecl-common v0.10.0
+       Fresh cubecl-ir v0.10.0
+       Fresh async-channel v2.5.0
+       Fresh prettyplease v0.2.37
+       Fresh cubecl-zspace v0.10.0
+       Fresh litrs v1.0.0
+       Fresh md5 v0.8.1
+       Fresh wgpu-hal v29.0.4
+       Fresh inflections v1.1.1
+       Fresh cubecl-runtime v0.10.0
+       Fresh document-features v0.2.12
+       Fresh static_assertions v1.1.0
+       Fresh find-msvc-tools v0.1.10
+       Fresh shlex v2.0.1
+       Fresh paste v1.0.15
+       Fresh wgpu-core-deps-windows-linux-android v29.0.4
+       Fresh cubecl-macros v0.10.0
+       Fresh cc v1.4.2
+       Fresh rand_distr v0.6.0
+       Fresh windows-sys v0.61.2
+       Fresh indexmap v2.14.0
+       Fresh unty v0.0.4
+       Fresh cubecl-core v0.10.0
+       Fresh wgpu-core v29.0.4
+       Fresh winapi-util v0.1.11
+       Fresh bincode v2.0.1
+       Fresh hashbrown v0.13.2
+       Fresh burn-derive v0.21.0
+       Fresh uuid v1.24.0
+       Fresh data-encoding v2.11.1
+       Fresh cxxbridge-flags v1.0.199
+       Fresh cxxbridge-macro v1.0.199
+       Fresh wgpu v29.0.4
+       Fresh cubecl-std v0.10.0
+       Fresh termcolor v1.4.1
+       Fresh text_placeholder v0.5.1
+       Fresh scratch v1.0.9
+       Fresh cubecl-wgpu v0.10.0
+       Fresh codespan-reporting v0.13.1
+       Fresh link-cplusplus v1.0.12
+       Fresh cubecl v0.10.0
+       Fresh cxx-build v1.0.199
+       Fresh cxx v1.0.199
+       Fresh burn-std v0.21.0
+       Fresh cubek-std v0.2.0
+       Fresh cubek-random v0.2.0
+       Fresh cubek-quant v0.2.0
+       Fresh cubek-fft v0.2.0
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\fft_inner.rs:94:35
+   |
+94 |             let mut w_re = F::new(1.0);
+   |                                   ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+   = note: `#[warn(float_literal_f32_fallback)]` (part of `#[warn(future_incompatible)]`) on by default
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\fft_inner.rs:95:35
+   |
+95 |             let mut w_im = F::new(0.0);
+   |                                   ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\irfft.rs:188:49
+    |
+188 |         let im_sign = select(k < n_freq, F::new(1.0), F::new(-1.0));
+    |                                                 ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\irfft.rs:188:63
+    |
+188 |         let im_sign = select(k < n_freq, F::new(1.0), F::new(-1.0));
+    |                                                               ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\irfft.rs:189:75
+    |
+189 |         shared_re[dst] = select(active, spectrum_re_view[src_bin], F::new(0.0));
+    |                                                                           ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\irfft.rs:190:85
+    |
+190 |         shared_im[dst] = select(active, spectrum_im_view[src_bin] * im_sign, F::new(0.0));
+    |                                                                                     ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\irfft.rs:204:24
+    |
+204 |     let scale = F::new(1.0) / F::cast_from(n_fft);
+    |                        ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft.rs:196:64
+    |
+196 |         shared_re[j] = select(active, signal_view[src], F::new(0.0));
+    |                                                                ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft.rs:197:31
+    |
+197 |         shared_im[j] = F::new(0.0);
+    |                               ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:284:71
+    |
+284 |     packed_re_view[k] = select(even_active, signal_view[even], F::new(0.0));
+    |                                                                       ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:285:69
+    |
+285 |     packed_im_view[k] = select(odd_active, signal_view[odd], F::new(0.0));
+    |                                                                     ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:327:38
+    |
+327 |         spectrum_im_view[k] = F::new(0.0);
+    |                                      ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:332:38
+    |
+332 |         spectrum_im_view[k] = F::new(0.0);
+    |                                      ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:350:33
+    |
+350 |         let one_plus_s = F::new(1.0) + s;
+    |                                 ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:351:34
+    |
+351 |         let one_minus_s = F::new(1.0) - s;
+    |                                  ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:352:27
+    |
+352 |         let x_re = F::new(0.5) * (a_re * one_plus_s + a_im * c + b_re * one_minus_s - b_im * c);
+    |                           ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:353:27
+    |
+353 |         let x_im = F::new(0.5) * (a_im * one_plus_s - a_re * c + b_re * c + b_im * one_minus_s);
+    |                           ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:397:70
+    |
+397 |         let xm_re = select(has_nyquist, spectrum_re_view[xm], F::new(0.0));
+    |                                                                      ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:398:36
+    |
+398 |         packed_re_view[k] = F::new(0.5) * (x0_re + xm_re);
+    |                                    ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:399:36
+    |
+399 |         packed_im_view[k] = F::new(0.5) * (x0_re - xm_re);
+    |                                    ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:403:65
+    |
+403 |         let x_re = select(active, spectrum_re_view[src], F::new(0.0));
+    |                                                                 ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:404:65
+    |
+404 |         let x_im = select(active, spectrum_im_view[src], F::new(0.0));
+    |                                                                 ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:408:76
+    |
+408 |         let xm_re = select(mirror_active, spectrum_re_view[mirror], F::new(0.0));
+    |                                                                            ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:409:80
+    |
+409 |         let xm_im_raw = select(mirror_active, spectrum_im_view[mirror], F::new(0.0));
+    |                                                                                ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:426:33
+    |
+426 |         let one_plus_s = F::new(1.0) + s;
+    |                                 ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:427:34
+    |
+427 |         let one_minus_s = F::new(1.0) - s;
+    |                                  ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:428:27
+    |
+428 |         let y_re = F::new(0.5) * (x_re * one_minus_s - x_im * c + xm_re * one_plus_s + xm_im * c);
+    |                           ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:429:27
+    |
+429 |         let y_im = F::new(0.5) * (x_im * one_minus_s + x_re * c - xm_re * c + xm_im * one_plus_s);
+    |                           ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cubek-fft-0.2.0\src\fft\rfft_large.rs:455:24
+    |
+455 |     let scale = F::new(1.0) / F::cast_from(m);
+    |                        ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: `cubek-fft` (lib) generated 29 warnings
+       Fresh burn-backend v0.21.0
+       Fresh cubek-matmul v0.2.0
+       Fresh cubek-reduce v0.2.0
+       Dirty espnet-burn v0.1.0 (D:\Users\bibi6548\Documents\Rust\espnet-burn): the file `src/openjtalk_bridge.cpp` is missing
+   Compiling espnet-burn v0.1.0 (D:\Users\bibi6548\Documents\Rust\espnet-burn)
+       Fresh cubek-attention v0.2.0
+       Fresh cubek-convolution v0.2.0
+       Fresh burn-tensor v0.21.0
+       Fresh burn-ir v0.21.0
+       Fresh burn-core v0.21.0
+       Fresh cubek v0.2.0
+     Running `set CARGO="C:\Program Files\Rust stable MSVC 1.97\bin\cargo.exe"&& set CARGO_CFG_DEBUG_ASSERTIONS=""&& set CARGO_CFG_FEATURE=""&& set CARGO_CFG_PANIC=unwind&& set CARGO_CFG_TARGET_ABI=""&& set CARGO_CFG_TARGET_ARCH=x86_64&& set CARGO_CFG_TARGET_ENDIAN=little&& set CARGO_CFG_TARGET_ENV=msvc&& set CARGO_CFG_TARGET_FAMILY=windows&& set CARGO_CFG_TARGET_FEATURE=cmpxchg16b,fxsr,sse,sse2,sse3&& set CARGO_CFG_TARGET_HAS_ATOMIC=128,16,32,64,8,ptr&& set CARGO_CFG_TARGET_HAS_ATOMIC_PRIMITIVE_ALIGNMENT=128,16,32,64,8,ptr&& set CARGO_CFG_TARGET_OS=windows&& set CARGO_CFG_TARGET_POINTER_WIDTH=64&& set CARGO_CFG_TARGET_VENDOR=pc&& set CARGO_CFG_WINDOWS=""&& set CARGO_ENCODED_RUSTFLAGS=""&& set CARGO_MANIFEST_DIR=D:\Users\bibi6548\Documents\Rust\espnet-burn&& set CARGO_MANIFEST_PATH=D:\Users\bibi6548\Documents\Rust\espnet-burn\Cargo.toml&& set CARGO_PKG_AUTHORS=""&& set CARGO_PKG_DESCRIPTION=""&& set CARGO_PKG_HOMEPAGE=""&& set CARGO_PKG_LICENSE=""&& set CARGO_PKG_LICENSE_FILE=""&& set CARGO_PKG_NAME=espnet-burn&& set CARGO_PKG_README=""&& set CARGO_PKG_REPOSITORY=""&& set CARGO_PKG_RUST_VERSION=""&& set CARGO_PKG_VERSION=0.1.0&& set CARGO_PKG_VERSION_MAJOR=0&& set CARGO_PKG_VERSION_MINOR=1&& set CARGO_PKG_VERSION_PATCH=0&& set CARGO_PKG_VERSION_PRE=""&& set DEBUG=true&& set DEP_CXXBRIDGE1_HEADER=C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\cxx-1.0.199\include\cxx.h&& set HOST=x86_64-pc-windows-msvc&& set NUM_JOBS=12&& set OPT_LEVEL=0&& set OUT_DIR=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\espnet-burn-9678e638bd97398b\out&& set PATH="D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\\"&& set PROFILE=debug&& set RUSTC=rustc&& set RUSTDOC=rustdoc&& set TARGET=x86_64-pc-windows-msvc&& D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\espnet-burn-8bd85f1c59563b80\build-script-build`
+       Fresh burn-cubecl v0.21.0
+warning: unused import: `kernel::attention::attention_autotune`
+ --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\attention\base.rs:2:31
+  |
+2 |     CubeBackend, CubeRuntime, kernel::attention::attention_autotune,
+  |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `backward_data::*`
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\mod.rs:14:16
+   |
+14 | pub(crate) use backward_data::*;
+   |                ^^^^^^^^^^^^^^^^
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\unary_float.rs:160:57
+    |
+160 |                     let minus_one = Vector::new(F::new(-1.0));
+    |                                                         ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+    = note: `#[warn(float_literal_f32_fallback)]` (part of `#[warn(future_incompatible)]`) on by default
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv2d.rs:144:29
+    |
+144 |     let mut result = F::new(0.0);
+    |                             ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv2d.rs:151:27
+    |
+151 |         let zero = F::new(0.0);
+    |                           ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:328:38
+    |
+328 |     let mut grad_offset_val = F::new(0.0);
+    |                                      ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:329:36
+    |
+329 |     let mut grad_mask_val = F::new(0.0);
+    |                                    ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:369:40
+    |
+369 |         ComptimeOption::None => F::new(1.0),
+    |                                        ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:442:16
+    |
+442 |         F::new(0.0)
+    |                ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:447:16
+    |
+447 |         F::new(0.0)
+    |                ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:452:16
+    |
+452 |         F::new(0.0)
+    |                ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:457:16
+    |
+457 |         F::new(0.0)
+    |                ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:462:56
+    |
+462 |         delta_x * (top_right - bottom_right) + (F::new(1.0) - delta_x) * (top_left - bottom_left)
+    |                                                        ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:465:52
+    |
+465 |         delta_y * (top_right - top_left) + (F::new(1.0) - delta_y) * (bottom_right - bottom_left)
+    |                                                    ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:617:40
+    |
+617 |         ComptimeOption::None => F::new(1.0),
+    |                                        ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:633:29
+    |
+633 |             if yp >= F::new(0.0)
+    |                             ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:635:33
+    |
+635 |                 && xp >= F::new(0.0)
+    |                                 ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:637:44
+    |
+637 |                 && F::abs(y - yp) < F::new(1.0)
+    |                                            ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:638:44
+    |
+638 |                 && F::abs(x - xp) < F::new(1.0)
+    |                                            ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:645:38
+    |
+645 |                 let weight = (F::new(1.0) - F::abs(y - yp)) * (F::new(1.0) - F::abs(x - xp));
+    |                                      ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\deform_conv_transpose2d.rs:645:71
+    |
+645 |                 let weight = (F::new(1.0) - F::abs(y - yp)) * (F::new(1.0) - F::abs(x - xp));
+    |                                                                       ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\ctc.rs:108:16
+    |
+108 |         F::new(0.0) - (mx + (one + (mn - mx).exp()).ln())
+    |                ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\ctc.rs:118:16
+    |
+118 |         F::new(0.0)
+    |                ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\ctc.rs:193:22
+    |
+193 |     let one = F::new(1.0);
+    |                      ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\ctc.rs:418:22
+    |
+418 |     let one = F::new(1.0);
+    |                      ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\base.rs:82:42
+   |
+82 |     select(in_bounds, input[idx], F::new(0.0))
+   |                                          ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\base.rs:142:47
+    |
+142 |         reflect_float_impl::<F>(coord, F::new(0.0), size_f - F::new(1.0))
+    |                                               ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\base.rs:142:69
+    |
+142 |         reflect_float_impl::<F>(coord, F::new(0.0), size_f - F::new(1.0))
+    |                                                                     ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\base.rs:144:48
+    |
+144 |         reflect_float_impl::<F>(coord, F::new(-0.5), size_f - F::new(0.5))
+    |                                                ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\base.rs:144:70
+    |
+144 |         reflect_float_impl::<F>(coord, F::new(-0.5), size_f - F::new(0.5))
+    |                                                                      ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\base.rs:153:34
+    |
+153 |     let is_valid = span > F::new(0.0);
+    |                                  ^^^ help: explicitly specify the type as `f32`: `0.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\base.rs:154:51
+    |
+154 |     let safe_span = select(is_valid, span, F::new(1.0));
+    |                                                   ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\base.rs:157:37
+    |
+157 |     let period = safe_span * F::new(2.0);
+    |                                     ^^^ help: explicitly specify the type as `f32`: `2.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:49:31
+   |
+49 |         let px = (gx + F::new(1.0)) * F::cast_from((w_in - 1) as f32) / F::new(2.0);
+   |                               ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:49:80
+   |
+49 |         let px = (gx + F::new(1.0)) * F::cast_from((w_in - 1) as f32) / F::new(2.0);
+   |                                                                                ^^^ help: explicitly specify the type as `f32`: `2.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:50:31
+   |
+50 |         let py = (gy + F::new(1.0)) * F::cast_from((h_in - 1) as f32) / F::new(2.0);
+   |                               ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:50:80
+   |
+50 |         let py = (gy + F::new(1.0)) * F::cast_from((h_in - 1) as f32) / F::new(2.0);
+   |                                                                                ^^^ help: explicitly specify the type as `f32`: `2.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:53:31
+   |
+53 |         let px = (gx + F::new(1.0)) * F::cast_from(w_in as f32) / F::new(2.0) - F::new(0.5);
+   |                               ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:53:74
+   |
+53 |         let px = (gx + F::new(1.0)) * F::cast_from(w_in as f32) / F::new(2.0) - F::new(0.5);
+   |                                                                          ^^^ help: explicitly specify the type as `f32`: `2.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:53:88
+   |
+53 |         let px = (gx + F::new(1.0)) * F::cast_from(w_in as f32) / F::new(2.0) - F::new(0.5);
+   |                                                                                        ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:54:31
+   |
+54 |         let py = (gy + F::new(1.0)) * F::cast_from(h_in as f32) / F::new(2.0) - F::new(0.5);
+   |                               ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:54:74
+   |
+54 |         let py = (gy + F::new(1.0)) * F::cast_from(h_in as f32) / F::new(2.0) - F::new(0.5);
+   |                                                                          ^^^ help: explicitly specify the type as `f32`: `2.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:54:88
+   |
+54 |         let py = (gy + F::new(1.0)) * F::cast_from(h_in as f32) / F::new(2.0) - F::new(0.5);
+   |                                                                                        ^^^ help: explicitly specify the type as `f32`: `0.5_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:71:30
+   |
+71 |     let x1_f = x0_f + F::new(1.0);
+   |                              ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:72:30
+   |
+72 |     let y1_f = y0_f + F::new(1.0);
+   |                              ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:77:22
+   |
+77 |     let wx_ = F::new(1.0) - wx;
+   |                      ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\grid_sample\bilinear.rs:78:22
+   |
+78 |     let wy_ = F::new(1.0) - wy;
+   |                      ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+   |
+   = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+   = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:134:20
+    |
+134 |     let a = float(-0.75);
+    |                    ^^^^ help: explicitly specify the type as `f32`: `0.75_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:136:49
+    |
+136 |     let coeffs0 = cubic_convolution_2(t + float(1.0), a);
+    |                                                 ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:138:45
+    |
+138 |     let coeffs2 = cubic_convolution_1(float(1.0) - t, a);
+    |                                             ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:139:45
+    |
+139 |     let coeffs3 = cubic_convolution_2(float(2.0) - t, a);
+    |                                             ^^^ help: explicitly specify the type as `f32`: `2.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:146:27
+    |
+146 |     let conv = (a + float(2.0)) * x;
+    |                           ^^^ help: explicitly specify the type as `f32`: `2.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:147:25
+    |
+147 |     let tmp = a + float(3.0);
+    |                         ^^^ help: explicitly specify the type as `f32`: `3.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:148:34
+    |
+148 |     (conv - tmp) * x * x + float(1.0)
+    |                                  ^^^ help: explicitly specify the type as `f32`: `1.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:154:30
+    |
+154 |     let conv = (conv - float(5.0) * a) * x;
+    |                              ^^^ help: explicitly specify the type as `f32`: `5.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:155:21
+    |
+155 |     let tmp = float(8.0) * a;
+    |                     ^^^ help: explicitly specify the type as `f32`: `8.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: falling back to `f32` as the trait bound `f32: From<f64>` is not satisfied
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\interpolate\bicubic.rs:158:18
+    |
+158 |     conv - float(4.0) * a
+    |                  ^^^ help: explicitly specify the type as `f32`: `4.0_f32`
+    |
+    = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+    = note: for more information, see issue #154024 <https://github.com/rust-lang/rust/issues/154024>
+
+warning: function `dgrad_gemm_simple_async` is never used
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\backward_data\implicit_gemm\launch.rs:35:8
+   |
+35 | pub fn dgrad_gemm_simple_async<R: CubeRuntime, const N: usize>(
+   |        ^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `dgrad_gemm_simple_tma` is never used
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\backward_data\implicit_gemm\launch.rs:56:8
+   |
+56 | pub fn dgrad_gemm_simple_tma<R: CubeRuntime, const N: usize>(
+   |        ^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `wgrad_gemm_simple_async` is never used
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\backward_weight\implicit_gemm\launch.rs:35:15
+   |
+35 | pub(crate) fn wgrad_gemm_simple_async<R: CubeRuntime, const N: usize>(
+   |               ^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `wgrad_gemm_simple_tma` is never used
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\backward_weight\implicit_gemm\launch.rs:56:15
+   |
+56 | pub(crate) fn wgrad_gemm_simple_tma<R: CubeRuntime, const N: usize>(
+   |               ^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `conv_gemm_simple_async` is never used
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\forward\implicit_gemm\launch.rs:40:8
+   |
+40 | pub fn conv_gemm_simple_async<R: CubeRuntime, const N: usize>(
+   |        ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `conv_gemm_simple_tma` is never used
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\forward\implicit_gemm\launch.rs:68:8
+   |
+68 | pub fn conv_gemm_simple_tma<R: CubeRuntime, const N: usize>(
+   |        ^^^^^^^^^^^^^^^^^^^^
+
+warning: function `conv_im2col_1x1` is never used
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\im2col.rs:59:8
+   |
+59 | pub fn conv_im2col_1x1<R: CubeRuntime, const N: usize>(
+   |        ^^^^^^^^^^^^^^^
+
+warning: function `reshape_input` is never used
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\im2col.rs:135:4
+    |
+135 | fn reshape_input<R: CubeRuntime>(input: CubeTensor<R>) -> CubeTensor<R> {
+    |    ^^^^^^^^^^^^^
+
+warning: function `is_spatial_contiguous` is never used
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\im2col.rs:159:4
+    |
+159 | fn is_spatial_contiguous(shape: &[usize], strides: &[usize]) -> bool {
+    |    ^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `from_handle` is never used
+   --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\conv\im2col.rs:176:4
+    |
+176 | fn from_handle<R: CubeRuntime>(
+    |    ^^^^^^^^^^^
+
+warning: function `launch_matmul_naive` is never used
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\matmul\base.rs:55:15
+   |
+55 | pub(crate) fn launch_matmul_naive<R: CubeRuntime>(
+   |               ^^^^^^^^^^^^^^^^^^^
+
+warning: function `split_dim` is never used
+  --> C:\Users\bibi6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\burn-cubecl-0.21.0\src\kernel\utils.rs:47:8
+   |
+47 | pub fn split_dim<R: CubeRuntime>(
+   |        ^^^^^^^^^
+
+       Fresh burn-nn v0.21.0
+       Fresh burn-optim v0.21.0
+warning: `burn-cubecl` (lib) generated 69 warnings
+       Fresh burn-wgpu v0.21.0
+       Fresh burn v0.21.0
+[espnet-burn 0.1.0] cargo:rerun-if-changed=src/openjtalk/mod.rs
+[espnet-burn 0.1.0] cargo:CXXBRIDGE_PREFIX=espnet-burn
+[espnet-burn 0.1.0] cargo:CXXBRIDGE_DIR0=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\espnet-burn-9678e638bd97398b\out\cxxbridge\include
+[espnet-burn 0.1.0] cargo:CXXBRIDGE_DIR1=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\espnet-burn-9678e638bd97398b\out\cxxbridge\crate
+[espnet-burn 0.1.0] 
+[espnet-burn 0.1.0] CXX include path:
+[espnet-burn 0.1.0]   D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\espnet-burn-9678e638bd97398b\out\cxxbridge\include
+[espnet-burn 0.1.0]   D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\espnet-burn-9678e638bd97398b\out\cxxbridge\crate
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CC_FORCE_DISABLE
+[espnet-burn 0.1.0] CC_FORCE_DISABLE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+[espnet-burn 0.1.0] mod.rs.cc
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] openjtalk_bridge.cpp
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] text2mecab.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/text2mecab/text2mecab.c(98): warning C4267: '・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ': 'size_t' ・ｽ・ｽ・ｽ・ｽ 'const int' ・ｽﾉ変奇ｿｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾄゑｿｽ・ｽ驍ｩ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽB
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] mecab.cpp
+[espnet-burn 0.1.0] lib/open_jtalk/src/mecab/src/mecab.cpp(93): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/mecab/src/mecab.cpp(94): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/mecab/src/mecab.cpp(95): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/mecab/src/mecab.cpp(163): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] njd.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd.c(103): warning C4244: '=': 'int' ・ｽ・ｽ・ｽ・ｽ 'char' ・ｽﾖの変奇ｿｽ・ｽﾅゑｿｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾂ能・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽB
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd.c(112): warning C4244: '=': 'int' ・ｽ・ｽ・ｽ・ｽ 'char' ・ｽﾖの変奇ｿｽ・ｽﾅゑｿｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾂ能・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽB
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd.c(117): warning C4244: '=': 'int' ・ｽ・ｽ・ｽ・ｽ 'char' ・ｽﾖの変奇ｿｽ・ｽﾅゑｿｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾂ能・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽB
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd.c(343): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] njd_node.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(108): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(118): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(128): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(138): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(148): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(158): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(168): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(178): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(188): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(198): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(227): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(241): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(244): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(245): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(258): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(261): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(262): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(275): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(278): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(279): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(292): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(295): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(296): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(521): warning C4267: '+=': 'size_t' ・ｽ・ｽ・ｽ・ｽ 'int' ・ｽﾉ変奇ｿｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾄゑｿｽ・ｽ驍ｩ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽB
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd/njd_node.c(605): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] njd2jpcommon.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd2jpcommon/njd2jpcommon.c(95): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd2jpcommon/njd2jpcommon.c(102): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd2jpcommon/njd2jpcommon.c(111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd2jpcommon/njd2jpcommon.c(118): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd2jpcommon/njd2jpcommon.c(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd2jpcommon/njd2jpcommon.c(134): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] njd_set_accent_phrase.c
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] njd_set_accent_type.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_accent_type/njd_set_accent_type.c(117): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_accent_type/njd_set_accent_type.c(134): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] njd_set_digit.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_digit/njd_set_digit.c(373): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_digit/njd_set_digit.c(374): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_digit/njd_set_digit.c(384): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_digit/njd_set_digit.c(385): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] njd_set_long_vowel.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_long_vowel/njd_set_long_vowel.c(118): warning C4100: 'njd': ・ｽQ・ｽﾆゑｿｽ・ｽ・ｽﾈゑｿｽ・ｽp・ｽ・ｽ・ｽ・ｽ・ｽ[・ｽ^・ｽ[
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] njd_set_pronunciation.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_pronunciation/njd_set_pronunciation.c(114): warning C4267: '=': 'size_t' ・ｽ・ｽ・ｽ・ｽ 'int' ・ｽﾉ変奇ｿｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾄゑｿｽ・ｽ驍ｩ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽB
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] njd_set_unvoiced_vowel.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_unvoiced_vowel/njd_set_unvoiced_vowel.c(134): warning C4267: '=': 'size_t' ・ｽ・ｽ・ｽ・ｽ 'int' ・ｽﾉ変奇ｿｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾄゑｿｽ・ｽ驍ｩ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽB
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_unvoiced_vowel/njd_set_unvoiced_vowel.c(140): warning C4267: '=': 'size_t' ・ｽ・ｽ・ｽ・ｽ 'int' ・ｽﾉ変奇ｿｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾄゑｿｽ・ｽ驍ｩ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽB
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_unvoiced_vowel/njd_set_unvoiced_vowel.c(105): warning C4267: '・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ': 'size_t' ・ｽ・ｽ・ｽ・ｽ 'int' ・ｽﾉ変奇ｿｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾄゑｿｽ・ｽ驍ｩ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽB
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_unvoiced_vowel/njd_set_unvoiced_vowel.c(224): warning C4267: '=': 'size_t' ・ｽ・ｽ・ｽ・ｽ 'int' ・ｽﾉ変奇ｿｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽ・ｽB・ｽf・ｽ[・ｽ^・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾄゑｿｽ・ｽ驍ｩ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾜゑｿｽ・ｽ・ｽB
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_unvoiced_vowel/njd_set_unvoiced_vowel.c(307): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/njd_set_unvoiced_vowel/njd_set_unvoiced_vowel.c(309): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] mecab2njd.c
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] jpcommon.c
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] jpcommon_label.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(115): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(128): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(148): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(168): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(181): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(194): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(207): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(231): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(259): warning C4100: 'b': ・ｽQ・ｽﾆゑｿｽ・ｽ・ｽﾈゑｿｽ・ｽp・ｽ・ｽ・ｽ・ｽ・ｽ[・ｽ^・ｽ[
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(459): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(462): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(688): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(692): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(698): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(701): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(712): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(714): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(715): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(718): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(720): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(721): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(732): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(734): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(735): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(744): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(746): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(750): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(752): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(754): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(757): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(764): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(768): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(776): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(785): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(787): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(791): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(793): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(795): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(798): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(807): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(809): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(811): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(818): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(823): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(834): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(843): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(845): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(847): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(849): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_label.c(853): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+[espnet-burn 0.1.0] CRATE_CC_NO_DEFAULTS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS
+[espnet-burn 0.1.0] CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXXFLAGS
+[espnet-burn 0.1.0] HOST_CXXFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXXFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] jpcommon_node.c
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_node.c(76): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_node.c(83): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_node.c(90): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] lib/open_jtalk/src/jpcommon/jpcommon_node.c(97): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] AR_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] AR_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_AR
+[espnet-burn 0.1.0] HOST_AR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=AR
+[espnet-burn 0.1.0] AR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=ARFLAGS
+[espnet-burn 0.1.0] ARFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_ARFLAGS
+[espnet-burn 0.1.0] HOST_ARFLAGS = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] ARFLAGS_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] ARFLAGS_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCINSTALLDIR
+[espnet-burn 0.1.0] VCINSTALLDIR = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+[espnet-burn 0.1.0] VSTEL_MSBuildProjectFullPath = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+[espnet-burn 0.1.0] VSCMD_ARG_VCVARS_SPECTRE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSdkDir
+[espnet-burn 0.1.0] WindowsSdkDir = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=WindowsSDKVersion
+[espnet-burn 0.1.0] WindowsSDKVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=LIB
+[espnet-burn 0.1.0] LIB = None
+[espnet-burn 0.1.0] PATH = Some(D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug;D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Program Files\Rust stable MSVC 1.97\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\)
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=INCLUDE
+[espnet-burn 0.1.0] INCLUDE = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=VCToolsVersion
+[espnet-burn 0.1.0] VCToolsVersion = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+[espnet-burn 0.1.0] CXX_x86_64-pc-windows-msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+[espnet-burn 0.1.0] CXX_x86_64_pc_windows_msvc = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=HOST_CXX
+[espnet-burn 0.1.0] HOST_CXX = None
+[espnet-burn 0.1.0] cargo:rerun-if-env-changed=CXX
+[espnet-burn 0.1.0] CXX = None
+[espnet-burn 0.1.0] cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\atlmfc\lib\x64
+[espnet-burn 0.1.0] cargo:rustc-link-lib=static=espnet_burn
+[espnet-burn 0.1.0] cargo:rustc-link-search=native=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\espnet-burn-9678e638bd97398b\out
+[espnet-burn 0.1.0] cargo:rerun-if-changed=lib/open_jtalk/src
+[espnet-burn 0.1.0] cargo:rerun-if-changed=src/openjtalk_bridge.cpp
+[espnet-burn 0.1.0] cargo:rerun-if-changed=src/openjtalk_bridge.h
+     Running `set CARGO="C:\Program Files\Rust stable MSVC 1.97\bin\cargo.exe"&& set CARGO_CRATE_NAME=espnet_burn&& set CARGO_MANIFEST_DIR=D:\Users\bibi6548\Documents\Rust\espnet-burn&& set CARGO_MANIFEST_PATH=D:\Users\bibi6548\Documents\Rust\espnet-burn\Cargo.toml&& set CARGO_PKG_AUTHORS=""&& set CARGO_PKG_DESCRIPTION=""&& set CARGO_PKG_HOMEPAGE=""&& set CARGO_PKG_LICENSE=""&& set CARGO_PKG_LICENSE_FILE=""&& set CARGO_PKG_NAME=espnet-burn&& set CARGO_PKG_README=""&& set CARGO_PKG_REPOSITORY=""&& set CARGO_PKG_RUST_VERSION=""&& set CARGO_PKG_VERSION=0.1.0&& set CARGO_PKG_VERSION_MAJOR=0&& set CARGO_PKG_VERSION_MINOR=1&& set CARGO_PKG_VERSION_PATCH=0&& set CARGO_PKG_VERSION_PRE=""&& set CARGO_PRIMARY_PACKAGE=1&& set OUT_DIR=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\espnet-burn-9678e638bd97398b\out&& set PATH="D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps;C:\Users\bibi6\miniforge3;C:\Users\bibi6\miniforge3\Library\mingw-w64\bin;C:\Users\bibi6\miniforge3\Library\usr\bin;C:\Users\bibi6\miniforge3\Library\bin;C:\Users\bibi6\miniforge3\Scripts;C:\Users\bibi6\miniforge3\bin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\bibi6\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\bibi6\.vscode-insiders\extensions\vadimcn.vscode-lldb-1.12.2\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\Rust stable MSVC 1.97\bin;C:\Users\bibi6\.cargo\bin;C:\Users\bibi6\AppData\Local\Microsoft\WindowsApps;C:\Users\bibi6\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\texlive\2025\bin\windows;C:\Users\bibi6\miniforge3\condabin;C:\Program Files\Inkscape\bin;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Packages\GitHub.Copilot_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\bibi6\AppData\Local\Microsoft\WinGet\Links;C:\Users\bibi6\AppData\Local\PowerToys\DSCModules\\"&& rustc --crate-name espnet_burn --edition=2021 src\lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg "cfg(feature, values())" -C metadata=deacd96657354f63 -C extra-filename=-0a7b21825648ef6d --out-dir D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps -C incremental=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\incremental -L dependency=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps --extern burn=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps\libburn-af10e39b7788e646.rmeta --extern cxx=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps\libcxx-b8c6386d280375c3.rmeta --extern regex=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\deps\libregex-0bc703398b2c1c1e.rmeta -L native=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\espnet-burn-9678e638bd97398b\out -L native=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\cxx-21e7c08b56dcf1a6\out -L native=D:\Users\bibi6548\Documents\Rust\espnet-burn\target\debug\build\link-cplusplus-7ab75b1fe8e58b9a\out -L "native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\atlmfc\lib\x64" -L "native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\atlmfc\lib\x64" -L "native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\atlmfc\lib\x64" -l static=espnet_burn`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.56s
