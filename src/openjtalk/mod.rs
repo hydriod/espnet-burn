@@ -6,6 +6,14 @@ mod ffi {
         fn run_frontend(text: &str, use_unvoiced_vowel: bool, output: &mut Vec<String>);
 
         fn make_label(text: &str, output: &mut Vec<String>);
+
+        fn run_frontend_with_log(
+            text: &str,
+            use_unvoiced_vowel: bool,
+            output: &mut Vec<String>,
+            log: &mut Vec<String>,
+        );
+
     }
 }
 
@@ -69,8 +77,24 @@ pub fn run_frontend(text: &str, use_unvoiced_vowel: bool) -> Result<Vec<String>,
     }
 }
 
+pub fn run_frontend_with_log(
+    text: &str,
+    use_unvoiced_vowel: bool,
+    log: &mut Vec<String>,
+) -> Result<Vec<String>, String> {
+    let mut output = Vec::new();
+    ffi::run_frontend_with_log(text, use_unvoiced_vowel, &mut output, log);
+
+    if output.is_empty() {
+        Err("Failed to process text or no features generated".to_string())
+    } else {
+        Ok(output)
+    }
+}
+
 #[cfg(test)]
 mod tests {
+
     use super::*;
 
     #[test]
@@ -84,7 +108,13 @@ mod tests {
 
     #[test]
     fn test_run_frontend_with_unvoiced_vowel() {
-        let result = run_frontend("あ", true);
+        let mut log = Vec::new();
+        let result = run_frontend_with_log("おはよう", true, &mut log);
+
+        for len in &log {
+            println!("{}", len);
+        }
+
         assert!(result.is_ok());
     }
 
