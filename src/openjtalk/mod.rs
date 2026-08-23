@@ -1,20 +1,35 @@
+mod dict;
+
+use std::sync::OnceLock;
+
+use crate::openjtalk::dict::resolve_dict_dir;
+
 #[cxx::bridge]
 mod ffi {
     unsafe extern "C++" {
         include!("openjtalk_bridge.h");
 
         fn run_frontend(text: &str, use_unvoiced_vowel: bool, output: &mut Vec<String>);
-
-        fn make_label(text: &str, output: &mut Vec<String>);
-
-        fn run_frontend_with_log(
-            text: &str,
-            use_unvoiced_vowel: bool,
-            output: &mut Vec<String>,
-            log: &mut Vec<String>,
-        );
-
+        // fn make_label(text: &str, output: &mut Vec<String>);
+        fn init_dictionary(dict_dir_str: &str) -> bool;
     }
+}
+
+static INIT: OnceLock<Result<(), String>> = OnceLock::new();
+
+fn ensure_dict_loaded() -> Result<(), String> {
+    INIT.get_or_init(|| {
+        let dict_dir = resolve_dict_dir()?;
+        let dict_dir_str = dict_dir
+            .to_str()
+            .ok_or_else(|| "Dictionary path is not valid UTF-8".to_string())?;
+        if ffi::init_dictionary(dict_dir_str) {
+            Ok(())
+        } else {
+            Err(format!("Failed to load dictionary from {:?}", dict_dir))
+        }
+    })
+    .clone()
 }
 
 /// Converts Japanese text to HTS-format labels using OpenJTalk.
@@ -37,6 +52,7 @@ mod ffi {
 ///
 /// # Errors
 /// Returns error if text processing or MeCab analysis fails
+/*
 pub fn make_label(text: &str) -> Result<Vec<String>, String> {
     let mut output = Vec::new();
     ffi::make_label(text, &mut output);
@@ -46,6 +62,7 @@ pub fn make_label(text: &str) -> Result<Vec<String>, String> {
         Ok(output)
     }
 }
+*/
 
 /// Runs the full OpenJTalk frontend with control over unvoiced vowel handling.
 ///
@@ -68,23 +85,10 @@ pub fn make_label(text: &str) -> Result<Vec<String>, String> {
 /// # Errors
 /// Returns error if text processing or MeCab analysis fails
 pub fn run_frontend(text: &str, use_unvoiced_vowel: bool) -> Result<Vec<String>, String> {
+    ensure_dict_loaded()?;
     let mut output = Vec::new();
+
     ffi::run_frontend(text, use_unvoiced_vowel, &mut output);
-    if output.is_empty() {
-        Err("Failed to process text or no features generated".to_string())
-    } else {
-        Ok(output)
-    }
-}
-
-pub fn run_frontend_with_log(
-    text: &str,
-    use_unvoiced_vowel: bool,
-    log: &mut Vec<String>,
-) -> Result<Vec<String>, String> {
-    let mut output = Vec::new();
-    ffi::run_frontend_with_log(text, use_unvoiced_vowel, &mut output, log);
-
     if output.is_empty() {
         Err("Failed to process text or no features generated".to_string())
     } else {
@@ -98,30 +102,27 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_make_label_simple() {
-        let result = make_label("あ");
-        assert!(result.is_ok());
-        let labels = result.unwrap();
-        assert!(!labels.is_empty());
-        println!("{}", labels.join(" "));
-    }
-
-    #[test]
     fn test_run_frontend_with_unvoiced_vowel() {
-        let mut log = Vec::new();
-        let result = run_frontend_with_log("おはよう", true, &mut log);
-
-        for len in &log {
-            println!("{}", len);
-        }
-
+        let result = run_frontend("おはよう", true);
+        println!("{}", result.clone().err().unwrap_or("".to_string()));
         assert!(result.is_ok());
     }
 
     #[test]
     fn test_run_frontend_without_unvoiced_vowel() {
         let result = run_frontend("あ", false);
+        println!("{}", result.clone().err().unwrap_or("".to_string()));
         assert!(result.is_ok());
+    }
+
+    /*
+    #[test]
+    fn test_make_label_simple() {
+        let result = make_label("あ");
+        assert!(result.is_ok());
+        let labels = result.unwrap();
+        assert!(!labels.is_empty());
+        println!("{}", labels.join(" "));
     }
 
     #[test]
@@ -134,4 +135,5 @@ mod tests {
             assert!(!label.is_empty());
         }
     }
+    */
 }

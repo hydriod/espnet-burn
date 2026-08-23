@@ -7,6 +7,9 @@ edition = "2021"
 burn = { version = "0.21.0", default-features = false, features = ["wgpu"] }
 regex = "1.13.1"
 cxx = "1.0.199"
+tar = "0.4.46"
+flate2 = "1.1.9"
+ureq = "3.4.0"
 
 [build-dependencies]
 cxx-build = "1.0.199"

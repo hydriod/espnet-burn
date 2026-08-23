@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <atomic>
+#include <mutex>
 
 // Declare opaque C structures
 typedef struct _Mecab Mecab;
@@ -13,6 +15,7 @@ extern "C"
 {
   // Forward declare Mecab functions (avoid including mecab.h due to C++ template issues)
   void Mecab_initialize(Mecab *mecab);
+  bool Mecab_load(Mecab *m, const char *dicdir);
   void Mecab_analysis(Mecab *mecab, const char *str);
   int Mecab_get_size(Mecab *mecab);
   char **Mecab_get_feature(Mecab *mecab);
@@ -46,30 +49,55 @@ extern "C"
 // Max buffer size for text2mecab output
 #define MECAB_OUTPUT_MAX 8192
 
+namespace
+{
+  Mecab *g_mecab = nullptr;
+  std::once_flag g_init_flag;
+  std::atomic<bool> g_load_success{false};
+  std::mutex g_mecab_call_mutex; // MECAB_WITHOUT_MUTEX_LOCK 対策
+}
+
+bool init_dictionary(rust::Str dict_dir)
+{
+  // 直接初期化でdict_dirのstd::stringを生成
+  std::string dict_dir_str(dict_dir);
+  std::call_once(g_init_flag, [&]()
+                 {
+        g_mecab = (Mecab *)malloc(MECAB_SIZE);
+        if (!g_mecab) {
+            g_load_success = false;
+            return;
+        }
+        Mecab_initialize(g_mecab);
+        g_load_success = (Mecab_load(g_mecab, dict_dir_str.c_str()) != 0); });
+  return g_load_success.load();
+}
+
 // OpenJTalk frontend: text -> make_label -> labels (HTS format)
 void run_frontend(
     rust::Str text,
     bool use_unvoiced_vowel,
     rust::Vec<rust::String> &output)
 {
-
+  if (!g_load_success)
+  {
+    return;
+  }
   const char *text_cstr = text.data();
+  std::lock_guard<std::mutex> lock(g_mecab_call_mutex);
 
   // Allocate storage for structures - we use opaque pointers
   // The memory will be managed by the C functions
-  Mecab *mecab = (Mecab *)malloc(MECAB_SIZE);
   NJD *njd = (NJD *)malloc(NJD_SIZE);
   JPCommon *jpcommon = (JPCommon *)malloc(JPCOMMON_SIZE);
 
-  if (!mecab || !njd || !jpcommon)
+  if (!njd || !jpcommon)
   {
-    free(mecab);
     free(njd);
     free(jpcommon);
     return;
   }
 
-  Mecab_initialize(mecab);
   NJD_initialize(njd);
   JPCommon_initialize(jpcommon);
 
@@ -79,27 +107,23 @@ void run_frontend(
 
   if (mecab_buffer[0] == '\0')
   {
-    Mecab_clear(mecab);
     NJD_clear(njd);
     JPCommon_clear(jpcommon);
-    free(mecab);
     free(njd);
     free(jpcommon);
     return;
   }
 
   // Step 2: MeCab analysis
-  Mecab_analysis(mecab, mecab_buffer);
+  Mecab_analysis(g_mecab, mecab_buffer);
 
   // Step 3: MeCab -> NJD
-  int size = Mecab_get_size(mecab);
-  char **features = Mecab_get_feature(mecab);
+  int size = Mecab_get_size(g_mecab);
+  char **features = Mecab_get_feature(g_mecab);
   if (!features || size <= 0)
   {
-    Mecab_clear(mecab);
     NJD_clear(njd);
     JPCommon_clear(jpcommon);
-    free(mecab);
     free(njd);
     free(jpcommon);
     return;
@@ -135,128 +159,8 @@ void run_frontend(
   }
 
   // Cleanup
-  Mecab_clear(mecab);
   NJD_clear(njd);
   JPCommon_clear(jpcommon);
-  free(mecab);
   free(njd);
   free(jpcommon);
-}
-
-void run_frontend_with_log(
-    rust::Str text,
-    bool use_unvoiced_vowel,
-    rust::Vec<rust::String> &output,
-    rust::Vec<rust::String> &log)
-{
-  log.clear();
-  const char *text_cstr = text.data();
-
-  // Allocate storage for structures - we use opaque pointers
-  // The memory will be managed by the C functions
-  Mecab *mecab = (Mecab *)malloc(MECAB_SIZE);
-  NJD *njd = (NJD *)malloc(NJD_SIZE);
-  JPCommon *jpcommon = (JPCommon *)malloc(JPCOMMON_SIZE);
-
-  log.push_back(rust::String("Call malloc mecab, njd, jpcommon."));
-
-  if (!mecab || !njd || !jpcommon)
-  {
-    free(mecab);
-    free(njd);
-    free(jpcommon);
-    log.push_back(rust::String("Fail malloc."));
-    return;
-  }
-
-  Mecab_initialize(mecab);
-  NJD_initialize(njd);
-  JPCommon_initialize(jpcommon);
-
-  log.push_back(rust::String("Initialize."));
-
-  // Step 1: text -> MeCab features
-  char mecab_buffer[MECAB_OUTPUT_MAX];
-  text2mecab(mecab_buffer, text_cstr);
-
-  log.push_back(rust::String("text2mecab"));
-  log.push_back(rust::String(mecab_buffer));
-
-  if (mecab_buffer[0] == '\0')
-  {
-    Mecab_clear(mecab);
-    NJD_clear(njd);
-    JPCommon_clear(jpcommon);
-    free(mecab);
-    free(njd);
-    free(jpcommon);
-    log.push_back(rust::String("Fail convert text -> mecab."));
-    return;
-  }
-
-  // Step 2: MeCab analysis
-  Mecab_analysis(mecab, mecab_buffer);
-  log.push_back(rust::String("Mecab_analysis"));
-
-  // Step 3: MeCab -> NJD
-  int size = Mecab_get_size(mecab);
-  char **features = Mecab_get_feature(mecab);
-  if (!features || size <= 0)
-  {
-    Mecab_clear(mecab);
-    NJD_clear(njd);
-    JPCommon_clear(jpcommon);
-    free(mecab);
-    free(njd);
-    free(jpcommon);
-    log.push_back(rust::String("Fail analysis.\nfeatures size is 0."));
-    return;
-  }
-
-  mecab2njd(njd, features, size);
-  log.push_back(rust::String("Convert mecab -> njd."));
-  
-  // Step 4: Apply NJD rules
-  njd_set_pronunciation(njd);
-  njd_set_digit(njd);
-  njd_set_accent_phrase(njd);
-  njd_set_accent_type(njd);
-  if (!use_unvoiced_vowel)
-  {
-    njd_set_unvoiced_vowel(njd);
-  }
-  njd_set_long_vowel(njd);
-
-  // Step 5: NJD -> JPCommon
-  njd2jpcommon(jpcommon, njd);
-  log.push_back(rust::String("Convert njd -> JPCommon."));
-  
-  // Step 6: Generate labels
-  JPCommon_make_label(jpcommon);
-  log.push_back(rust::String("Generate labels."));
-  
-  // Step 7: Extract label features
-  int label_size = JPCommon_get_label_size(jpcommon);
-  char **label_features = JPCommon_get_label_feature(jpcommon);
-  log.push_back(rust::String("Extract label features."));
-
-  output.clear();
-  for (int i = 0; i < label_size; i++)
-  {
-    output.push_back(rust::String(label_features[i]));
-  }
-
-  // Cleanup
-  Mecab_clear(mecab);
-  NJD_clear(njd);
-  JPCommon_clear(jpcommon);
-  free(mecab);
-  free(njd);
-  free(jpcommon);
-}
-
-// Make label: text -> labels (shorthand for run_frontend with default options)
-void make_label(rust::Str text, rust::Vec<rust::String> &output)
-{
-  run_frontend(text, false, output);
 }

@@ -85,6 +85,6 @@ fn _numeric_feature_by_regex(regex: &str, s: &str) -> i128 {
 }
 
 fn extract_fullcontext_label(text: &str) -> Result<Vec<String>, String> {
-    make_label(text)
+    run_frontend(text, false)
     // Ok(iter.map(|s| s.to_string()).collect::<Vec<String>>())
 }
