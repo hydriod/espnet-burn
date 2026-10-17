@@ -1,3 +1,8 @@
+mkdir tmp
+curl "https://dl.dropboxusercontent.com/scl/fi/gueh24t2iqwhcouf4y48s/0-1.0.0.zip/?rlkey=l0wkgov5x0c2g79o73gmrvjk9&st=dxfgrmgf&raw=1" -o tmp/0-1.0.0.zip
+unzip tmp/0-1.0.0.zip -d tmp/
+mv tmp/0 tmp/model
+rm -rf tmp/0
 python ./tests/scripts/gen_fixture.py -n vits/generator/text_encoder/encoder/layer/attention -p tts.generator.text_encoder.encoder.encoders.0.self_attn. -i '{"query": "1,32,192","key": "1,32,192","value": "1,32,192","pos_emb": "1,63,192","mask": "1,1,32"}'
 python ./tests/scripts/gen_fixture.py -n vits/generator/text_encoder/encoder/layer/multi_layered_conv -p tts.generator.text_encoder.encoder.encoders.0.feed_forward. -i '{"x":"1,32,192"}'
 python ./tests/scripts/gen_fixture.py -n vits/generator/text_encoder/encoder/layer/mod -p tts.generator.text_encoder.encoder.encoders.0. -i '{"x_input":["1,32,192", "1,63,192"], "mask":"1,1,32"}'
