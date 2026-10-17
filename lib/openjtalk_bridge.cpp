@@ -5,6 +5,7 @@
 #include <string.h>
 #include <atomic>
 #include <mutex>
+#include <string>
 
 // Declare opaque C structures
 typedef struct _Mecab Mecab;
@@ -83,7 +84,7 @@ void run_frontend(
   {
     return;
   }
-  const char *text_cstr = text.data();
+  std::string text_str(text);
   std::lock_guard<std::mutex> lock(g_mecab_call_mutex);
 
   // Allocate storage for structures - we use opaque pointers
@@ -103,7 +104,7 @@ void run_frontend(
 
   // Step 1: text -> MeCab features
   char mecab_buffer[MECAB_OUTPUT_MAX];
-  text2mecab(mecab_buffer, text_cstr);
+  text2mecab(mecab_buffer, text_str.c_str());
 
   if (mecab_buffer[0] == '\0')
   {

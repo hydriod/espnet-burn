@@ -1,6 +1,19 @@
 use crate::{error::Error, openjtalk::*};
 use regex::Regex;
 
+/// Converts Japanese text into phonemes with prosody markers.
+///
+/// ```
+/// use espnet_burn::text::phoneme_tokenizer::pyopenjtalk_g2p_prosody;
+///
+/// assert_eq!(
+///     pyopenjtalk_g2p_prosody("こんにちは", true).unwrap(),
+///     vec!["^", "k", "o", "[", "N", "n", "i", "ch", "i", "w", "a", "$"]
+///         .into_iter()
+///         .map(String::from)
+///         .collect::<Vec<_>>()
+/// );
+/// ```
 pub fn pyopenjtalk_g2p_prosody(
     text: &str,
     drop_unvoiced_vowel: bool,
