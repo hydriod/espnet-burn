@@ -1,5 +1,6 @@
 fn main() {
-    cxx_build::bridge("src/openjtalk/mod.rs")
+    let mut build = cxx_build::bridge("src/openjtalk/mod.rs");
+    build
         .include("lib")
         .include("lib/open_jtalk/src")
         .include("lib/open_jtalk/src/mecab/src")
@@ -14,13 +15,50 @@ fn main() {
         .include("lib/open_jtalk/src/njd_set_long_vowel")
         .include("lib/open_jtalk/src/njd_set_pronunciation")
         .include("lib/open_jtalk/src/njd_set_unvoiced_vowel")
-        .define("CHARSET_UTF_8", "1")   // 辞書がUTF-8版ならこのまま。Shift-JIS辞書ならCHARSET_SHIFT_JISに変更
+        .define("CHARSET_UTF_8", "1") // 辞書がUTF-8版ならこのまま。Shift-JIS辞書ならCHARSET_SHIFT_JISに変更
         .define("DIC_VERSION", "102")
         .define("MECAB_WITHOUT_MUTEX_LOCK", None)
         .define("MECAB_DEFAULT_RC", "\"dummy\"")
+        .define("MECAB_UTF8_USE_ONLY", None)
         .define("PACKAGE", "\"open_jtalk\"")
-        .define("VERSION", "\"1.01\"")
-        .define("HAVE_WINDOWS_H", None)
+        .define("VERSION", "\"1.11\"");
+
+    // OS固有の定義:
+    // Windows(MSVC)では windows.h が存在する前提だったが、
+    // Linuxでは HAVE_WINDOWS_H を定義すると <windows.h> が無くて失敗する。
+    if std::env::var("CARGO_CFG_TARGET_OS").as_deref() == Ok("windows") {
+        build.define("HAVE_WINDOWS_H", None);
+    } else {
+        // CMakeのLinuxビルド相当 (HAVE_CONFIG_Hの代わりに個別定義)
+        for macro_name in [
+            "HAVE_CTYPE_H",
+            "HAVE_DIRENT_H",
+            "HAVE_FCNTL_H",
+            "HAVE_GETENV",
+            "HAVE_GETPAGESIZE",
+            "HAVE_INTTYPES_H",
+            "HAVE_MEMORY_H",
+            "HAVE_MMAP",
+            "HAVE_OPENDIR",
+            "HAVE_SETJMP",
+            "HAVE_SETJMP_H",
+            "HAVE_SQRT",
+            "HAVE_STDINT_H",
+            "HAVE_STDLIB_H",
+            "HAVE_STRINGS_H",
+            "HAVE_STRING_H",
+            "HAVE_STRSTR",
+            "HAVE_SYS_MMAN_H",
+            "HAVE_SYS_STAT_H",
+            "HAVE_SYS_TYPES_H",
+            "HAVE_UNISTD_H",
+            "HAVE_PTHREAD_H",
+        ] {
+            build.define(macro_name, "1");
+        }
+    }
+
+    build
         .file("lib/openjtalk_bridge.cpp")
         .file("lib/open_jtalk/src/text2mecab/text2mecab.c")
         // --- MeCab本体（学習・辞書生成ツール群は除外） ---
@@ -58,9 +96,13 @@ fn main() {
         .flag_if_supported("/std:c++11")
         .flag_if_supported("-std=c++11")
         .flag_if_supported("/utf-8")
+        // GCCで .c をC++としてコンパイルすると 0xC0 などが narrowing error になる対策
+        .flag_if_supported("-Wno-narrowing")
+        .flag_if_supported("-funsigned-char")
+        .flag_if_supported("-Wno-write-strings")
         .compile("espnet_burn");
 
     println!("cargo:rerun-if-changed=lib/open_jtalk/src");
-    println!("cargo:rerun-if-changed=src/openjtalk_bridge.cpp");
-    println!("cargo:rerun-if-changed=src/openjtalk_bridge.h");
+    println!("cargo:rerun-if-changed=lib/openjtalk_bridge.cpp");
+    println!("cargo:rerun-if-changed=lib/openjtalk_bridge.h");
 }

@@ -1,10 +1,10 @@
-use crate::openjtalk::*;
+use crate::{error::Error, openjtalk::*};
 use regex::Regex;
 
 pub fn pyopenjtalk_g2p_prosody(
     text: &str,
     drop_unvoiced_vowel: bool,
-) -> Result<Vec<String>, String> {
+) -> Result<Vec<String>, Error> {
     let label = extract_fullcontext_label(text)?;
 
     let mut phones = vec![];
@@ -12,10 +12,13 @@ pub fn pyopenjtalk_g2p_prosody(
         let lab_curr = &label[i];
 
         // current phoneme
-        let p3 = Regex::new(r"\-(.*?)\+")
-            .map_err(|err| err.to_string())?
+        let p3 = Regex::new(r"\-(.*?)\+")?
             .captures(lab_curr)
-            .ok_or_else(|| "Failed to parse phoneme label")?;
+            .ok_or_else(|| {
+                Error::Regex(regex::Error::Syntax(
+                    "Failed to parse phoneme label".to_string(),
+                ))
+            })?;
         let mut p3 = p3[1].to_string();
 
         // drop unvoiced vowel as normal vowels
@@ -26,7 +29,9 @@ pub fn pyopenjtalk_g2p_prosody(
         // deal with sil at the beginning and end of the text
         if p3 == "sil" {
             if !(i == 0 || i == label.len() - 1) {
-                return Err("Unexpected sil token position".to_owned());
+                return Err(Error::Tokenizer(
+                    "Unexpected sil token position".to_string(),
+                ));
             }
             if i == 0 {
                 phones.push("^".to_string());
@@ -84,7 +89,7 @@ fn _numeric_feature_by_regex(regex: &str, s: &str) -> i128 {
     }
 }
 
-fn extract_fullcontext_label(text: &str) -> Result<Vec<String>, String> {
+fn extract_fullcontext_label(text: &str) -> Result<Vec<String>, Error> {
     run_frontend(text, false)
     // Ok(iter.map(|s| s.to_string()).collect::<Vec<String>>())
 }

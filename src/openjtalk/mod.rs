@@ -2,7 +2,7 @@ mod dict;
 
 use std::sync::OnceLock;
 
-use crate::openjtalk::dict::resolve_dict_dir;
+use crate::{error::Error, openjtalk::dict::resolve_dict_dir};
 
 #[cxx::bridge]
 mod ffi {
@@ -15,18 +15,20 @@ mod ffi {
     }
 }
 
-static INIT: OnceLock<Result<(), String>> = OnceLock::new();
+static INIT: OnceLock<Result<(), Error>> = OnceLock::new();
 
-fn ensure_dict_loaded() -> Result<(), String> {
+fn ensure_dict_loaded() -> Result<(), Error> {
     INIT.get_or_init(|| {
         let dict_dir = resolve_dict_dir()?;
         let dict_dir_str = dict_dir
             .to_str()
-            .ok_or_else(|| "Dictionary path is not valid UTF-8".to_string())?;
+            .ok_or_else(|| Error::Tokenizer("Dictionary path is not valid UTF-8".to_string()))?;
         if ffi::init_dictionary(dict_dir_str) {
             Ok(())
         } else {
-            Err(format!("Failed to load dictionary from {:?}", dict_dir))
+            Err(Error::Io(
+                format!("Failed to load dictionary from \"{:?}\"", dict_dir).to_string(),
+            ))
         }
     })
     .clone()
@@ -84,13 +86,15 @@ pub fn make_label(text: &str) -> Result<Vec<String>, String> {
 ///
 /// # Errors
 /// Returns error if text processing or MeCab analysis fails
-pub fn run_frontend(text: &str, use_unvoiced_vowel: bool) -> Result<Vec<String>, String> {
+pub fn run_frontend(text: &str, use_unvoiced_vowel: bool) -> Result<Vec<String>, Error> {
     ensure_dict_loaded()?;
     let mut output = Vec::new();
 
     ffi::run_frontend(text, use_unvoiced_vowel, &mut output);
     if output.is_empty() {
-        Err("Failed to process text or no features generated".to_string())
+        Err(Error::Tokenizer(
+            "Failed to process text or no features generated".to_string(),
+        ))
     } else {
         Ok(output)
     }
@@ -104,14 +108,12 @@ mod tests {
     #[test]
     fn test_run_frontend_with_unvoiced_vowel() {
         let result = run_frontend("おはよう", true);
-        println!("{}", result.clone().err().unwrap_or("".to_string()));
         assert!(result.is_ok());
     }
 
     #[test]
     fn test_run_frontend_without_unvoiced_vowel() {
         let result = run_frontend("あ", false);
-        println!("{}", result.clone().err().unwrap_or("".to_string()));
         assert!(result.is_ok());
     }
 

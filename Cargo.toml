@@ -4,12 +4,19 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-burn = { version = "0.21.0", default-features = false, features = ["wgpu"] }
+burn = { version = "0.21.0", default-features = false, features = ["std"] }
 regex = "1.13.1"
 cxx = "1.0.199"
 tar = "0.4.46"
 flate2 = "1.1.9"
 ureq = "3.4.0"
+serde = "1.0.229"
+yaml_serde = "0.10.7"
+thiserror = "2.0.20"
+burn-store = { version = "0.21.0", default-features = false, features = ["pytorch", "std"] }
 
 [build-dependencies]
 cxx-build = "1.0.199"
+
+[dev-dependencies]
+burn = { version = "0.21.0", default-features = false, features = ["wgpu", "flex"] }

@@ -1,3 +1,10 @@
 {
-    "cmake.sourceDirectory": "D:/Users/bibi6548/Documents/Rust/espnet-burn/lib/open_jtalk/src"
+    "cmake.sourceDirectory": "${workspaceFolder}/lib/open_jtalk/src",
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "chat.tools.terminal.autoApprove": {
+        "cargo check": true,
+        "cargo fmt": true,
+        "rustfmt": true
+    }
 }

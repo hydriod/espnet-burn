@@ -1,0 +1,24 @@
+{
+  "name": "rust-opencode",
+  "build": { "dockerfile": "Dockerfile" },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+
+  "onCreateCommand": "rustup component add clippy rustfmt && curl -fsSL https://opencode.ai/install | bash",
+  "updateContentCommand": "cargo fetch",
+  "postStartCommand": "tmux has-session -t oc 2>/dev/null || tmux new-session -d -s oc 'opencode web --port 4096 --hostname 0.0.0.0'",
+
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/home/vscode/.opencode/bin"
+  },
+
+  "forwardPorts": [4096],
+  "portsAttributes": {
+    "4096": { "label": "OpenCode", "onAutoForward": "silent" }
+  },
+
+  "customizations": {
+    "vscode": { "extensions": ["rust-lang.rust-analyzer"] }
+  }
+}

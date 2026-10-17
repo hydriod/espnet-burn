@@ -1,20 +1,10 @@
-// pub mod bin_mod;
 pub mod openjtalk;
+// pub mod task;
+pub mod error;
+pub mod modules;
 pub mod text;
+pub mod tts;
 
 pub use openjtalk::run_frontend;
 
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+// pub use tts::{SynthesisResult, Text2Speech, VITSynthesisOptions, VitsConfig};

@@ -1,7 +1,8 @@
 use std::env::current_exe;
-// src/openjtalk/dict.rs
 use std::io::{Cursor, Read};
 use std::path::{Path, PathBuf};
+
+use crate::error::Error;
 
 const DICT_DIR_NAME: &str = "open_jtalk_dic_utf_8-1.11";
 const DICT_URL: &str =
@@ -10,7 +11,7 @@ const DICT_URL: &str =
 /// 辞書ディレクトリのパスを解決する。
 /// 1. OPEN_JTALK_DICT_DIR が存在すればそれを使う
 /// 2. なければ <クレートディレクトリ>/open_jtalk_dic_utf_8-1.11/ を使う(無ければダウンロード)
-pub fn resolve_dict_dir() -> Result<PathBuf, String> {
+pub fn resolve_dict_dir() -> Result<PathBuf, Error> {
     if let Ok(env_dir) = std::env::var("OPEN_JTALK_DICT_DIR") {
         let path = PathBuf::from(&env_dir);
         if path.is_dir() {
@@ -41,7 +42,7 @@ fn dir_has_dict_files(dir: &Path) -> bool {
     dir.join("sys.dic").is_file() && dir.join("matrix.bin").is_file()
 }
 
-fn download_and_extract(target_dir: &Path) -> Result<(), String> {
+fn download_and_extract(target_dir: &Path) -> Result<(), Error> {
     eprintln!(
         "OpenJTalk dictionary not found. Downloading from {}...",
         DICT_URL
@@ -49,35 +50,29 @@ fn download_and_extract(target_dir: &Path) -> Result<(), String> {
 
     // 辞書をダウンロード
     let mut bytes = Vec::new();
-    let response = ureq::get(DICT_URL)
-        .call()
-        .map_err(|e| format!("Failed to download dictionary: {e}"))?;
+    let response = ureq::get(DICT_URL).call()?;
     response
         .into_parts()
         .1
         .into_reader()
-        .read_to_end(&mut bytes)
-        .map_err(|e| format!("Failed to read response body: {e}"))?;
+        .read_to_end(&mut bytes)?;
 
     // 親ディレクトリの作成
     let parent = target_dir
         .parent()
-        .ok_or_else(|| "Invalid target directory (no parent)".to_string())?;
-    std::fs::create_dir_all(parent)
-        .map_err(|e| format!("Failed to create parent directory: {e}"))?;
+        .ok_or_else(|| Error::Argument("Invalid target directory (no parent)".to_string()))?;
+    std::fs::create_dir_all(parent)?;
 
     // ダウンロードしたtar.gzファイルを展開
     let tar = flate2::read::GzDecoder::new(Cursor::new(bytes));
     let mut archive = tar::Archive::new(tar);
-    archive
-        .unpack(parent)
-        .map_err(|e| format!("Failed to extract dictionary archive: {e}"))?;
+    archive.unpack(parent)?;
 
     if !dir_has_dict_files(target_dir) {
-        return Err(format!(
+        return Err(Error::Io(format!(
             "Dictionary extraction succeeded but expected files not found in {:?}",
             target_dir
-        ));
+        )));
     }
 
     eprintln!("Dictionary extracted to {:?}", target_dir);
