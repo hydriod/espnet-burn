@@ -67,7 +67,7 @@ mod tests {
     use super::*;
     use burn::backend::flex::Flex;
     use burn::backend::wgpu::Wgpu;
-    use burn_store::{pytorch::PytorchReader, PytorchStore};
+    use burn_store::pytorch::PytorchReader;
 
     const REL_TOL: f32 = 0.05;
     const FIXTURE_DIR: &str =
@@ -75,14 +75,10 @@ mod tests {
     type ForwardOutput<B> = (Tensor<B, 3>, Tensor<B, 3>);
     type TestModule = RelPositionalEncoding;
 
-    fn init_module<B: Backend>(device: &B::Device) -> TestModule {
+    fn init_module<B: Backend>(_device: &B::Device) -> TestModule {
         RelPositionalEncodingConfig::new(192, 0.0).init()
     }
 
-    fn key_remap(store: PytorchStore, _: &TestModule) -> PytorchStore {
-        // let store = module.key_remap(store, &vec![]);
-        store
-    }
     fn forward<B: Backend>(
         module: &TestModule,
         input_reader: &PytorchReader,
@@ -117,15 +113,7 @@ mod tests {
 
     fn numerical_check<TestBackend: Backend>() {
         let device = Default::default();
-        let mut module = init_module::<TestBackend>(&device);
-
-        // --- 2. 重みのロード
-        // let weight_path = format!("{FIXTURE_DIR}/weight.pth");
-        // let weight_store = PytorchStore::from_file(&weight_path);
-        // let mut weight_store = key_remap(weight_store, &module);
-        // module.load_from(&mut weight_store).unwrap_or_else(|e| {
-        // panic!("重みのロードに失敗しました。key_remapやshapeの不一致を確認してください:\n{e}")
-        // });
+        let module = init_module::<TestBackend>(&device);
 
         // --- 3. Python側で生成した入力をロードする ---
         let input_path = format!("{FIXTURE_DIR}/input.pth");

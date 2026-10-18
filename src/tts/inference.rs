@@ -1,7 +1,6 @@
-use std::{collections::HashMap, path::Path};
+use std::path::Path;
 
 use burn::prelude::*;
-use burn::tensor::TensorKind;
 
 use crate::error::Error;
 use crate::tts::espnet_tts::model::{TTSSynthesisOptions, TTSSynthesisOutput};
@@ -12,7 +11,7 @@ use crate::tts::utils::DurationCalculator;
 pub struct Text2Speech<B: Backend> {
     model: ESPnetTTSModel<B>,
     duration_calculator: DurationCalculator<B>,
-    seed: u64,
+    _seed: u64,
     decode_conf: TTSSynthesisOptions,
 }
 
@@ -24,7 +23,7 @@ impl<B: Backend> Text2Speech<B> {
         seed: Option<u64>,
         options: TTSSynthesisOptions,
     ) -> Result<Self, Error> {
-        let (model, args) = TTSTask::build_model_from_file(train_config, model_config, device)?;
+        let (model, _args) = TTSTask::build_model_from_file(train_config, model_config, device)?;
         let duration_calculator = DurationCalculator::<B>::new();
         let seed = seed.unwrap_or(777);
         let decode_conf = options;
@@ -32,7 +31,7 @@ impl<B: Backend> Text2Speech<B> {
         Ok(Self {
             model,
             duration_calculator,
-            seed,
+            _seed: seed,
             decode_conf,
         })
     }
@@ -40,8 +39,9 @@ impl<B: Backend> Text2Speech<B> {
     pub fn forward(
         &self,
         text: Tensor<B, 1, Int>,
-        decode_conf: TTSSynthesisOptions,
+        decode_conf: Option<TTSSynthesisOptions>,
     ) -> Result<SynthesisOutput<B>, Error> {
+        let decode_conf = decode_conf.unwrap_or(self.decode_conf.clone());
         let result = self.model.inference(
             text,
             None,
@@ -57,16 +57,16 @@ impl<B: Backend> Text2Speech<B> {
 
         let wav = match &result {
             TTSSynthesisOutput::VITS(vit_output) => vit_output.generated.clone(),
-            _ => {
-                return Err(Error::Argument(
-                    "Only VITS model is supported for inference.".to_string(),
-                ))
-            }
+            // _ => {
+            //     return Err(Error::Argument(
+            //         "Only VITS model is supported for inference.".to_string(),
+            //     ))
+            // }
         };
 
         let attention_weight = match &result {
             TTSSynthesisOutput::VITS(vit_output) => Some(vit_output.attention_weight.clone()),
-            _ => None,
+            // _ => None,
         };
 
         let duration_result = match &result {
@@ -74,7 +74,7 @@ impl<B: Backend> Text2Speech<B> {
                 self.duration_calculator
                     .forward(vit_output.attention_weight.clone()),
             ),
-            _ => None,
+            // _ => None,
         };
         let (duration, focus_rate) = match duration_result {
             Some(duration_result) => (
@@ -96,14 +96,10 @@ impl<B: Backend> Text2Speech<B> {
     pub fn __call__(
         &self,
         text: Tensor<B, 1, Int>,
-        decode_conf: TTSSynthesisOptions,
+        decode_conf: Option<TTSSynthesisOptions>,
     ) -> Result<SynthesisOutput<B>, Error> {
         self.forward(text, decode_conf)
     }
-
-    /// Converts the string to a token ID. <br>
-    /// However, the conversion is performed by COEIROINK, so nothing is done here.
-    fn preprocess_fn(&self, uid: &str, data: &mut HashMap<&str, Vec<f64>>) {}
 }
 
 #[derive(Clone, Debug)]
@@ -121,7 +117,7 @@ mod tests {
     use super::*;
     use burn::backend::flex::Flex;
     use burn::backend::wgpu::Wgpu;
-    use burn_store::{pytorch::PytorchReader, ModuleSnapshot, PytorchStore};
+    use burn_store::pytorch::PytorchReader;
 
     const REL_TOL: f32 = 0.05;
     const FIXTURE_DIR: &str = "tests/fixtures/tts/";
@@ -153,12 +149,11 @@ mod tests {
         module
             .forward(
                 get_tensor(input_reader, "text", device).int(),
-                TTSSynthesisOptions::VITS(
-                VITSSynthesisOptions {
+                Some(TTSSynthesisOptions::VITS(VITSSynthesisOptions {
                     alpha: 1.0,
                     noise_scale: 0.0,
                     noise_scale_dur: 0.0,
-                }),
+                })),
             )
             .unwrap_or_else(|e| panic!("forwardに失敗。\n{e}"))
     }

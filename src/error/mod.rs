@@ -1,5 +1,3 @@
-use burn::tensor::DataError;
-
 #[derive(thiserror::Error, Debug, Clone)]
 pub enum Error {
     #[error("argument error: {0}")]

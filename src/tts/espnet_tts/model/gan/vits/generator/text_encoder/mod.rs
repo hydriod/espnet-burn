@@ -53,26 +53,26 @@ impl TextEncoderConfig {
     ) -> Result<Self, Error> {
         let vocabs = vocabs
             .try_into()
-            .map_err(|e| Error::Argument(format!("Fail to try_into vocabs")))?;
+            .map_err(|_| Error::Argument(format!("Fail to try_into vocabs")))?;
         let attention_dim = attention_dim
             .try_into()
-            .map_err(|e| Error::Argument(format!("Fail to try_into attention_dim")))?;
+            .map_err(|_| Error::Argument(format!("Fail to try_into attention_dim")))?;
         let attention_heads = attention_heads
             .try_into()
-            .map_err(|e| Error::Argument(format!("Fail to try_into attention_heads")))?;
+            .map_err(|_| Error::Argument(format!("Fail to try_into attention_heads")))?;
         let linear_units = linear_units
             .try_into()
-            .map_err(|e| Error::Argument(format!("Fail to try_into linear_units")))?;
+            .map_err(|_| Error::Argument(format!("Fail to try_into linear_units")))?;
         let blocks = blocks
             .try_into()
-            .map_err(|e| Error::Argument(format!("Fail to try_into blocks")))?;
+            .map_err(|_| Error::Argument(format!("Fail to try_into blocks")))?;
         let positionwise_conv_kernel_size =
             positionwise_conv_kernel_size.try_into().map_err(|_| {
                 Error::Argument(format!("Fail to try_into positionwise_conv_kernel_size"))
             })?;
         let conformer_kernel_size = conformer_kernel_size
             .try_into()
-            .map_err(|e| Error::Argument(format!("Fail to try_into conformer_kernel_size")))?;
+            .map_err(|_| Error::Argument(format!("Fail to try_into conformer_kernel_size")))?;
         Ok(Self {
             vocabs,
             attention_dim,

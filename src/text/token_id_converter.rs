@@ -72,7 +72,7 @@ impl TokenIDConverter {
         let reader = BufReader::new(file);
         let mut token_list_vec: Vec<String> = Vec::new();
 
-        for (idx, line) in reader.lines().enumerate() {
+        for (_idx, line) in reader.lines().enumerate() {
             let line = line?;
             // Python: line[0] + line[1:].rstrip()
             if line.is_empty() {

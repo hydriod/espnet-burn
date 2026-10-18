@@ -58,9 +58,11 @@ impl<B: Backend> TTSChoice<B> {
             (TTSChoice::None(_), _) => Err(Error::Argument(
                 "TTSChoice is None, cannot perform inference.".to_string(),
             )),
+            /*
             (tts, options) => Err(Error::Argument(format!(
                 "Mismatch between TTSChoice ({tts}) and TTSSynthesisOptions ({options})."
             ))),
+            */
         }
     }
 
@@ -72,7 +74,7 @@ impl<B: Backend> TTSChoice<B> {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub enum TTSSynthesisOptions {
     VITS(VITSSynthesisOptions),
 }

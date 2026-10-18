@@ -85,7 +85,7 @@ impl<B: Backend> ConformerConv<B> {
         }
     }
 
-    pub fn key_remap(&self, store: PytorchStore, parents: &Vec<&str>) -> PytorchStore {
+    pub fn key_remap(&self, store: PytorchStore, _parents: &Vec<&str>) -> PytorchStore {
         store
     }
 }

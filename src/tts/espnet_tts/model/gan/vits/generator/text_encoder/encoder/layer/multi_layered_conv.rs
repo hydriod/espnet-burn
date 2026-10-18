@@ -2,7 +2,6 @@ use burn::nn::conv::{Conv1d, Conv1dConfig};
 use burn::nn::{Dropout, DropoutConfig};
 use burn::prelude::*;
 use burn::tensor::activation::relu;
-use burn_store::PytorchStore;
 
 pub struct MultiLayeredConv1dConfig {
     in_chans: usize,
@@ -95,7 +94,7 @@ mod tests {
         MultiLayeredConv1dConfig::new(192, 768, 3, 0.1).init(device)
     }
 
-    fn key_remap(store: PytorchStore, module: &TestModule) -> PytorchStore {
+    fn key_remap(store: PytorchStore, _module: &TestModule) -> PytorchStore {
         // let store = module.key_remap(store, &vec![]);
         store
     }
