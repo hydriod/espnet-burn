@@ -1,0 +1,36 @@
+espnet-burn
+Copyright 2026 espnet-burn contributors
+
+This product includes software developed as part of ESPnet
+(https://github.com/espnet/espnet).
+  Copyright 2017 Shinji Watanabe
+  Ported modules Copyright 2021 Tomoki Hayashi
+Licensed under the Apache License, Version 2.0.
+
+This product includes software derived from ParallelWaveGAN
+(https://github.com/kan-bayashi/ParallelWaveGAN).
+  Copyright 2020 Tomoki Hayashi
+Licensed under the MIT License.
+
+This product includes software derived from VITS
+(https://github.com/jaywalnut310/vits).
+  Copyright 2021 Jaehyeon Kim
+Licensed under the MIT License.
+
+This product includes Open JTalk (https://open-jtalk.sourceforge.net/).
+  Copyright (c) 2008-2018 Nagoya Institute of Technology,
+  Department of Computer Science
+Licensed under the Modified BSD (3-clause) License.
+
+This product includes MeCab (https://taku910.github.io/mecab/).
+  Copyright (c) 2001-2008 Taku Kudo
+  Copyright (c) 2004-2008 Nippon Telegraph and Telephone Corporation
+Licensed under the BSD (3-clause) License.
+
+This product supports and downloads NAIST-jdic
+(https://sourceforge.jp/projects/naist-jdic/).
+  Copyright (c) 2009 Nara Institute of Science and Technology, Japan
+Licensed under the BSD (3-clause) License.
+
+Full license texts for the above components are provided in
+THIRD-PARTY-NOTICES.md.

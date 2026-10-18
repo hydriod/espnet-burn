@@ -2,6 +2,8 @@
 name = "espnet-burn"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+description = "ESPnet2 (VITS) text-to-speech inference ported to the Burn framework, with an Open JTalk frontend."
 
 [dependencies]
 burn = { version = "0.21.0", default-features = false, features = ["std"] }
