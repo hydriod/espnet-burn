@@ -1,24 +1,24 @@
 [package]
 name = "espnet-burn"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "Apache-2.0"
 description = "ESPnet2 (VITS) text-to-speech inference ported to the Burn framework, with an Open JTalk frontend."
 
 [dependencies]
-burn = { version = "0.21.0", default-features = false, features = ["std"] }
-regex = "1.13.1"
-cxx = "1.0.199"
-tar = "0.4.46"
-flate2 = "1.1.9"
-ureq = "3.4.0"
-serde = "1.0.229"
-yaml_serde = "0.10.7"
-thiserror = "2.0.20"
-burn-store = { version = "0.21.0", default-features = false, features = ["pytorch", "std"] }
+burn = { version = "0.21", default-features = false, features = ["std"] }
+regex = "1.3"
+cxx = "1.0"
+tar = "0.2"
+flate2 = "1.0"
+ureq = "3.0"
+serde = "1.0"
+yaml_serde = "0.10"
+thiserror = "2.0"
+burn-store = { version = "0.21", default-features = false, features = ["pytorch", "std"] }
 
 [build-dependencies]
-cxx-build = "1.0.199"
+cxx-build = "1.0"
 
 [dev-dependencies]
-burn = { version = "0.21.0", default-features = false, features = ["wgpu", "flex"] }
+burn = { version = "0.21", default-features = false, features = ["wgpu", "flex"] }

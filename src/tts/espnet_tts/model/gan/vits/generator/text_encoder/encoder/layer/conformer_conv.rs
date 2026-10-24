@@ -138,7 +138,7 @@ mod tests {
     // --- 以下変更不要 ---
 
     #[test]
-    fn test_forward() {
+    fn test_wgpu() {
         let device = Default::default();
         let mut module = init_module(&device);
 

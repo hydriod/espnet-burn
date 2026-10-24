@@ -95,7 +95,7 @@ The Japanese TTS System "Open JTalk"
 developed by HTS Working Group
 http://open-jtalk.sourceforge.net/
 
-Copyright (c) 2008-2018  Nagoya Institute of Technology
+Copyright (c) 2008-2016  Nagoya Institute of Technology
                          Department of Computer Science
 
 All rights reserved.
@@ -168,12 +168,14 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ---
 
-## 6. NAIST-jdic — BSD (3-clause) License
+## 6. NAIST-jdic / UniDic — BSD (3-clause) License
 
 `OPEN_JTALK_DICT_DIR` が未設定かつ実行ファイル隣接に辞書が無い場合に、実行時に
-自動ダウンロードされる日本語辞書。
+自動ダウンロードされる日本語辞書。辞書の本体は mecab-naist-jdic であり、
+UniDic 由来のデータを含むため UniDic Consortium の表示も含めます。
 
 出典: <https://sourceforge.jp/projects/naist-jdic/>
+（UniDic: <https://clrd.ninjal.ac.jp/unidic/>）
 
 ```
 Copyright (c) 2009, Nara Institute of Science and Technology, Japan.
@@ -202,11 +204,75 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+
+Copyright (c) 2011-2017, The UniDic Consortium
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+ * Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the
+   distribution.
+
+ * Neither the name of the UniDic Consortium nor the names of its
+   contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
 ---
 
-## 7. Rust クレート依存
+## 7. pyopenjtalk — MIT License
+
+`src/text/phoneme_tokenizer.rs` の `pyopenjtalk_g2p_prosody`（HTS ラベルから音素・
+韻律記号を抽出する処理）は、pyopenjtalk (<https://github.com/r9y9/pyopenjtalk>)
+の `g2p.py` を移植したものです。pyopenjtalk 自体は同梱せず、ポートのみを行っています。
+
+出典: <https://github.com/r9y9/pyopenjtalk/blob/master/LICENSE.md>
+
+```
+The pyopenjtalk package is licensed under the MIT "Expat" License:
+
+Copyright (c) 2018: Ryuichi Yamamoto.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## 8. Rust クレート依存
 
 `Cargo.toml` / `Cargo.lock` で参照する Rust クレート。直接依存は下表のとおりです
 （いずれもパーミッシブライセンス）。
@@ -235,7 +301,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ---
 
-## 8. モデル重み・音声データについて
+## 9. モデル重み・音声データについて
 
 本リポジトリは学習済みモデルの重み（`.pth` など）や音声データを配布するものでは
 ありません。利用するモデル・辞書・音声には、それぞれの提供元（例: COEIROINK の
