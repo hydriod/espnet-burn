@@ -1,8 +1,8 @@
 use crate::error::Error;
 use std::collections::HashMap;
-use std::path::Path;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
+use std::path::Path;
 
 #[derive(Clone, Debug)]
 pub struct TokenIDConverter {
@@ -45,14 +45,11 @@ impl TokenIDConverter {
         }
 
         let unk_symbol = unk_symbol.unwrap_or_else(|| "<unk>".to_string());
-        let unk_id = token2id
-            .get(&unk_symbol)
-            .copied()
-            .ok_or_else(|| {
-                Error::Argument(format!(
-                    "Unknown symbol '{unk_symbol}' doesn't exist in the token_list"
-                ))
-            })?;
+        let unk_id = token2id.get(&unk_symbol).copied().ok_or_else(|| {
+            Error::Argument(format!(
+                "Unknown symbol '{unk_symbol}' doesn't exist in the token_list"
+            ))
+        })?;
 
         Ok(Self {
             token_list: token_list_vec,
@@ -83,7 +80,12 @@ impl TokenIDConverter {
             // rstrip rest after first char? Python does: line[0] + line[1:].rstrip()
             if chars.len() > 1 {
                 let mut end = chars.len() - 1;
-                while end > 0 && (chars[end] == '\r' || chars[end] == '\n' || chars[end] == ' ' || chars[end] == '\t') {
+                while end > 0
+                    && (chars[end] == '\r'
+                        || chars[end] == '\n'
+                        || chars[end] == ' '
+                        || chars[end] == '\t')
+                {
                     end -= 1;
                 }
                 let mut new_chars = vec![chars[0]];
@@ -92,7 +94,10 @@ impl TokenIDConverter {
                 }
                 token_list_vec.push(new_chars.into_iter().collect());
             } else {
-                token_list_vec.push(line.trim_end_matches(|c: char| c.is_whitespace()).to_string());
+                token_list_vec.push(
+                    line.trim_end_matches(|c: char| c.is_whitespace())
+                        .to_string(),
+                );
             }
         }
 
@@ -117,15 +122,11 @@ impl TokenIDConverter {
 
         let unk_sym = unk_symbol.unwrap_or_else(|| "<unk>".to_string());
         converter.unk_symbol = unk_sym.clone();
-        converter.unk_id = converter
-            .token2id
-            .get(&unk_sym)
-            .copied()
-            .ok_or_else(|| {
-                Error::Argument(format!(
-                    "Unknown symbol '{unk_sym}' doesn't exist in the token_list"
-                ))
-            })?;
+        converter.unk_id = converter.token2id.get(&unk_sym).copied().ok_or_else(|| {
+            Error::Argument(format!(
+                "Unknown symbol '{unk_sym}' doesn't exist in the token_list"
+            ))
+        })?;
 
         Ok(converter)
     }
@@ -135,7 +136,10 @@ impl TokenIDConverter {
     }
 
     pub fn ids2tokens(&self, integers: &[usize]) -> Vec<String> {
-        integers.iter().map(|&i| self.token_list[i].clone()).collect()
+        integers
+            .iter()
+            .map(|&i| self.token_list[i].clone())
+            .collect()
     }
 
     pub fn ids2tokens_iter<I>(&self, integers: I) -> Vec<String>

@@ -45,7 +45,9 @@ impl<B: Backend> FeatsExtractChoice<B> {
     ) -> Result<(Tensor<B, 4>, Tensor<B, 1>), DataError> {
         match self {
             Self::LinearSpectrogram(feats_extract) => feats_extract.forward(input, input_lengths),
-            Self::None(PhantomData) => panic!("FeatsExtractChoice::None does not implement `forward`."),
+            Self::None(PhantomData) => {
+                panic!("FeatsExtractChoice::None does not implement `forward`.")
+            }
         }
     }
 }

@@ -125,7 +125,7 @@ impl<B: Backend> ESPnetTTSModel<B> {
         let output = self.tts.inference(text, options, use_teacher_forcing)?;
 
         match self.normalize {
-            NormalizeChoice::None(_) => {},
+            NormalizeChoice::None(_) => {}
         }
 
         Ok(output)
